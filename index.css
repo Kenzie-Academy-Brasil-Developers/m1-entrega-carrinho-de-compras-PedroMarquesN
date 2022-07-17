@@ -1,0 +1,40 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+main{
+    width: 300px;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+
+}
+h1{
+    font-size: 150px;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.button{
+    
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 	150px;
+    height: 40px;
+    background-color: #0A99FE;
+    border-radius: 12px;
+    margin-right: 25px;
+    font-size: 15px;
+}
